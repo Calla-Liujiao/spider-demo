@@ -1,0 +1,46 @@
+Arguments: 
+  /Users/calla-lj/.nvm/versions/node/v12.7.0/bin/node /Users/calla-lj/.nvm/versions/node/v12.7.0/bin/yarn add selenium-webdriver
+
+PATH: 
+  /Users/calla-lj/.nvm/versions/node/v12.7.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/calla-lj/.nvm/versions/node/v12.7.0/bin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  12.7.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/selenium-webdriver: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (/Users/calla-lj/.nvm/versions/node/v12.7.0/lib/node_modules/yarn/lib/cli.js:141091:19)
+      at Object.onceWrapper (events.js:291:20)
+      at ClientRequest.emit (events.js:203:13)
+      at TLSSocket.emitRequestTimeout (_http_client.js:680:40)
+      at Object.onceWrapper (events.js:291:20)
+      at TLSSocket.emit (events.js:203:13)
+      at TLSSocket.Socket._onTimeout (net.js:434:8)
+      at listOnTimeout (internal/timers.js:531:17)
+      at processTimers (internal/timers.js:475:7)
+
+npm manifest: 
+  {
+    "name": "selenium-demo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
